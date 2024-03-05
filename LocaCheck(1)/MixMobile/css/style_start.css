@@ -1,0 +1,80 @@
+
+.start-page,
+.start-page *{
+  box-sizing: border-box;
+}
+
+
+.start-page{
+  background: linear-gradient(
+    180deg,
+    rgba(236, 255, 202, 1) 0%,
+    rgba(255, 240, 124, 1) 28.899964690208435%,
+    rgba(71, 205, 255, 1) 100%
+  );
+  width: 100%;
+  height: 800px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+/*--------------------------Start-Page -----------------------------*/
+.contain-start{
+  width: 450px;
+  height: auto;
+  padding: 0px 5px 5px 5px;
+}
+.box-tail{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.sign-in {
+  color: #fe51b0;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 500;
+  text-decoration: underline;
+  margin-left: 5px;
+}
+.already-have-an-accout {
+  color: #000000;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.box-for-start {
+  background: #fe51b0;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 2px;
+  padding-top: 15px;
+  margin-top: 10px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 54px;
+  box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, 0.15),
+      0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.start {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 4vh;
+  line-height: 22px;
+  font-weight: 700;
+}
+.image-3 {
+  width: 100%;
+  height: auto;
+}

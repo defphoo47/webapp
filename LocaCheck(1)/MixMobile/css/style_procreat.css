@@ -1,0 +1,154 @@
+.test-page,
+.test-page *{
+  box-sizing: border-box;
+}
+
+
+.test-page{
+  background: linear-gradient(
+    180deg,
+    rgb(198, 255, 99) 0%,
+    rgb(227, 207, 53)5%,
+    rgb(154, 219, 242) 45%,
+    rgb(138, 172, 194) 70%
+  );
+  width: 100%;
+  height: 800px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+
+.Propic{
+  position:fixed; 
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 240px; 
+  height: 240px; 
+  overflow:hidden;
+  border-radius: 50%;
+  border: solid;
+}
+img{
+ width :auto;
+ height:100%;
+}
+
+
+.letter-1 {
+    background: #ffffff;
+    position: fixed;
+    width: 402px;
+    border-radius: 30px 30px 0px 0px;
+    height: 45%;
+    bottom: 0;
+    padding: 50px 30px 20px 30px;
+    box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, 0.15),
+      0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+
+.contain{
+    width: 401px;
+    padding-top: 50px;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .contain{
+      width: 100%;
+      height: auto;
+  }
+  .letter-1{
+    width: 100%;
+    height: 50%;
+  }
+}
+
+
+.arrow-left {
+    width: 24px;
+    height: 24px;
+  }
+
+  .form-control{
+    background: #e4e4e4;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100%;
+    height: 45px;
+  }
+  .form-label{
+    color:black;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 14px;
+    font-weight:bold;
+    margin-top: 5px;
+  }
+
+  .box-for-les-t-go {
+    background: #FE51B0;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, 0.15),
+      0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .let-s-go {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    height: 22px;
+  }
+
+ .welcome{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom:  40px;  
+  }
+
+
+
+  .Propic-up{
+    display: none;
+  }
+
+
+  .Propic-label {
+    position:fixed; 
+    top: 200px;
+    left: 60%;
+    background: #ffffff;
+    border-radius: 50%;
+    width: 42px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  input 
+  {
+      font-size:18px;
+  }  

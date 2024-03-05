@@ -1,0 +1,168 @@
+.test-page,
+.test-page *{
+  box-sizing: border-box;
+}
+
+
+.test-page{
+  background: linear-gradient(
+    180deg,
+    rgb(227, 207, 53)0%,
+    rgb(198, 255, 99) 20%,
+    rgb(42, 198, 255) 90%
+  );
+  width: 100%;
+  height: 800px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+
+.contain{
+    width: 401px;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .contain{
+      width: 100%;
+      height: auto;
+  }
+}
+
+
+.arrow-left {
+    width: 24px;
+    height: 24px;
+  }
+
+  .form-control{
+    background: #e4e4e4;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100%;
+    height: 45px;
+  }
+  .form-label{
+    color:black;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 14px;
+    font-weight:bold;
+    margin-top: 5px;
+  }
+
+  .box-for-les-t-go {
+    background: #FE51B0;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, 0.15),
+      0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .let-s-go {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    height: 22px;
+  }
+
+  .profile{
+    margin-left: 15px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .Propic{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    width: 240px; 
+    height: 240px; 
+    overflow:hidden;
+    border-radius: 50%;
+    margin-top: 120px;
+    justify-content: center;
+    box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, 0.15),
+      0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .Propic img{
+   width :auto;
+   height:100%;
+  }
+
+  .Head{
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+  }
+
+  .box-for-logout {
+    background: #fe51b0;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 35%;
+    height: 50px;
+    box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, 0.15),
+        0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .logout {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 4vh;
+    line-height: 22px;
+    font-weight: 700;
+  }
+
+  .name-of-user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 4vh;
+    line-height: 22px;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+
+  .box-tail{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  input 
+  {
+      font-size:18px;
+  }  
